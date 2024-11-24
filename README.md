@@ -35,10 +35,16 @@ chmod +x run-yarn.sh
 cd client && yarn start
 ```
 
-Start the Server
+##### Start the Server
 
 ```bash
 cd server && yarn start
+```
+
+#### Or run both with concurrently
+
+```bash
+yarn start:all
 ```
 
 ##### This completes the setup. The client and server should now be running and ready for demonstration.
