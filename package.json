@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "start:all": "concurrently \"cd client && yarn start\" \"cd server && yarn start\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
