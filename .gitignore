@@ -1,0 +1,28 @@
+# Ignore all node_modules directories
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Ignore Yarn-related files
+.yarn/
+.yarnrc.yml
+
+# Ignore log files
+*.log
+
+# Ignore environment configuration files
+.env
+.env.local
+.env.*.local
+
+# Ignore build directories
+dist/
+build/
+
+# Ignore editor-specific settings
+.vscode/
+.idea/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
